@@ -15,6 +15,7 @@
 		79E077C81FC3BDA5009D1E18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E077C71FC3BDA5009D1E18 /* main.m */; };
 		79E077D21FC3BDA5009D1E18 /* ShareUIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E077D11FC3BDA5009D1E18 /* ShareUIDemoTests.m */; };
 		79E077DD1FC3BDA5009D1E18 /* ShareUIDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E077DC1FC3BDA5009D1E18 /* ShareUIDemoUITests.m */; };
+		79E077ED1FC3BDEF009D1E18 /* SharedUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E077EC1FC3BDEF009D1E18 /* SharedUI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		79E077D81FC3BDA5009D1E18 /* ShareUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E077DC1FC3BDA5009D1E18 /* ShareUIDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareUIDemoUITests.m; sourceTree = "<group>"; };
 		79E077DE1FC3BDA5009D1E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E077EB1FC3BDEF009D1E18 /* SharedUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedUI.h; sourceTree = "<group>"; };
+		79E077EC1FC3BDEF009D1E18 /* SharedUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharedUI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		79E077B71FC3BDA5009D1E18 /* ShareUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				79E077EA1FC3BDD9009D1E18 /* SharedUI */,
 				79E077B81FC3BDA5009D1E18 /* AppDelegate.h */,
 				79E077B91FC3BDA5009D1E18 /* AppDelegate.m */,
 				79E077BB1FC3BDA5009D1E18 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				79E077DE1FC3BDA5009D1E18 /* Info.plist */,
 			);
 			path = ShareUIDemoUITests;
+			sourceTree = "<group>";
+		};
+		79E077EA1FC3BDD9009D1E18 /* SharedUI */ = {
+			isa = PBXGroup;
+			children = (
+				79E077EB1FC3BDEF009D1E18 /* SharedUI.h */,
+				79E077EC1FC3BDEF009D1E18 /* SharedUI.m */,
+			);
+			path = SharedUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			files = (
 				79E077BD1FC3BDA5009D1E18 /* ViewController.m in Sources */,
 				79E077C81FC3BDA5009D1E18 /* main.m in Sources */,
+				79E077ED1FC3BDEF009D1E18 /* SharedUI.m in Sources */,
 				79E077BA1FC3BDA5009D1E18 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
